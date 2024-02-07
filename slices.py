@@ -1,7 +1,6 @@
-# using slices in a list
 # Dylan Nelson
 # February 6, 2024
-
+# using slices in a list
 
 cars = ["honda", "ford", "mazda", "toyota", "subaru"]
 
@@ -17,7 +16,6 @@ print(f"The middle items in the list are: ", cars[1:4])
 print(f"The last three items in the list are: ", cars[2:])
 
 # The three examples from above will actually print the list itself with the commas, apostrophes, and brackets included.
-
 
 # Prints the item that is 3rd from the end of the list
 print(f"The last three items in the list are: ", cars[-3])
